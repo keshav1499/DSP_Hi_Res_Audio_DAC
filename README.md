@@ -63,5 +63,5 @@ python uart_sender.py --port COMx --file audio.wav
 
 ## Credits
 
-Created by [Your Name / Handle]  
+Created by [Keshav Jha  github.com/keshav1499]  
 License: MIT
