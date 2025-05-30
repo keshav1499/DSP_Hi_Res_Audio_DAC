@@ -14,7 +14,7 @@ localparam COUNTMAX   = TOTAL_BITS - 1;            // Last index of bit count (0
 localparam ROM_ADDR_WIDTH = 8;                     // Address bits (e.g., 256 samples)
 
 // === Clock Generation (PLL) ===
-// You must generate 4.8 MHz BCK from 27 MHz input externally (e.g., using Gowin_rPLL)
+// We generate 4.8 MHz BCK from 27 MHz input externally (using Gowin_rPLL)
 Gowin_rPLL CLK_27_TO_4_8(
     .clkoutd(bck), // 4.8 MHz output clock for BCK
     .clkin(clk)    // 27 MHz input clock

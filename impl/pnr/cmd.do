@@ -1,9 +1,9 @@
--d C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\gwsynthesis\DSP_DAC_UDA1334.vg
+-d /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/gwsynthesis/DSP_DAC_UDA1334.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\src\DSP_DAC_UDA1334.cst
--cfg C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\pnr\device.cfg
--sdc C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\src\DSP_DAC_UDA1334.sdc
+-cst /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/DSP_DAC_UDA1334.cst
+-cfg /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/pnr/device.cfg
+-sdc /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/DSP_DAC_UDA1334.sdc
 -bit
 -tr
 -ph
@@ -12,6 +12,7 @@
 -convert_sdp32_36_to_sdp16_18
 -place_option 0
 -route_option 0
+-clock_route_order 0
 -correct_hold 1
 -route_maxfan 23
 -global_freq 50.000

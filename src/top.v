@@ -18,7 +18,7 @@ driver dvr(
 .ws(ws)
 );
 
-
+assign mute = 0;
 
 
 

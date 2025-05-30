@@ -1,25 +1,25 @@
 [
  {
-  "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/top.v",
+  "InstFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v",
   "InstLine" : 1,
   "InstName" : "top",
-  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/top.v",
+  "ModuleFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v",
   "ModuleLine" : 1,
   "ModuleName" : "top",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/top.v",
+    "InstFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v",
     "InstLine" : 12,
     "InstName" : "dvr",
-    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/driver.v",
+    "ModuleFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v",
     "ModuleLine" : 1,
     "ModuleName" : "driver",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/driver.v",
+      "InstFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v",
       "InstLine" : 18,
       "InstName" : "CLK_27_TO_4_8",
-      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/gowin_rpll/gowin_rpll.v",
+      "ModuleFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/gowin_rpll/gowin_rpll.v",
       "ModuleLine" : 10,
       "ModuleName" : "Gowin_rPLL"
      }

@@ -1,38 +1,38 @@
-//Copyright (C)2014-2024 Gowin Semiconductor Corporation.
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
 //All rights reserved.
 
 
 1. PnR Messages
 
   <Report Title>: PnR Report
-  <Design File>: C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\gwsynthesis\DSP_DAC_UDA1334.vg
-  <Physical Constraints File>: C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\src\DSP_DAC_UDA1334.cst
-  <Timing Constraints File>: C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\src\DSP_DAC_UDA1334.sdc
-  <Tool Version>: V1.9.11 (64-bit)
+  <Design File>: /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/gwsynthesis/DSP_DAC_UDA1334.vg
+  <Physical Constraints File>: /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/DSP_DAC_UDA1334.cst
+  <Timing Constraints File>: /home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/DSP_DAC_UDA1334.sdc
+  <Tool Version>: V1.9.11.01 Education
   <Part Number>: GW1NR-LV9QN88PC6/I5
   <Device>: GW1NR-9
   <Device Version>: C
-  <Created Time>:Fri May  2 02:37:54 2025
+  <Created Time>:Sat May 31 01:37:51 2025
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.003s
-    Placement Phase 1: CPU time = 0h 0m 0.066s, Elapsed time = 0h 0m 0.065s
-    Placement Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.001s
-    Placement Phase 3: CPU time = 0h 0m 0.635s, Elapsed time = 0h 0m 0.635s
-    Total Placement: CPU time = 0h 0m 0.703s, Elapsed time = 0h 0m 0.704s
+    Placement Phase 0: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.002s
+    Placement Phase 1: CPU time = 0h 0m 0.049s, Elapsed time = 0h 0m 0.047s
+    Placement Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
+    Placement Phase 3: CPU time = 0h 0m 0.331s, Elapsed time = 0h 0m 0.323s
+    Total Placement: CPU time = 0h 0m 0.382s, Elapsed time = 0h 0m 0.372s
  Running routing:
     Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Routing Phase 1: CPU time = 0h 0m 0.167s, Elapsed time = 0h 0m 0.167s
-    Routing Phase 2: CPU time = 0h 0m 0.057s, Elapsed time = 0h 0m 0.057s
+    Routing Phase 1: CPU time = 0h 0m 0.098s, Elapsed time = 0h 0m 0.098s
+    Routing Phase 2: CPU time = 0h 0m 0.049s, Elapsed time = 0h 0m 0.047s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Total Routing: CPU time = 0h 0m 0.224s, Elapsed time = 0h 0m 0.224s
+    Total Routing: CPU time = 0h 0m 0.147s, Elapsed time = 0h 0m 0.145s
  Generate output files:
-    CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
+    CPU time = 0h 0m 0.202s, Elapsed time = 0h 0m 0.201s
 
- Total Time and Memory Usage: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 281MB
+ Total Time and Memory Usage: CPU time = 0h 0m 0.731s, Elapsed time = 0h 0m 0.718s, Peak memory usage = 346MB
 
 
 3. Resource Usage Summary

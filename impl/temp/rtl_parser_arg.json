@@ -2,15 +2,15 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/driver.v",
+   "Path" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/gowin_rpll/gowin_rpll.v",
+   "Path" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/src/top.v",
+   "Path" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v",
    "Type" : "verilog"
   }
  ],
@@ -18,7 +18,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Gowin/Gowin_V1.9.11_x64/IDE/bin/Documents/DSP_DAC_UDA1334/impl/temp/rtl_parser.result",
+ "ResultFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

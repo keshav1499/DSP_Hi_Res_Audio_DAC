@@ -1,7 +1,7 @@
-Reading netlist file: "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\gwsynthesis\DSP_DAC_UDA1334.vg"
-Parsing netlist file "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\gwsynthesis\DSP_DAC_UDA1334.vg" completed
+Reading netlist file: "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/gwsynthesis/DSP_DAC_UDA1334.vg"
+Parsing netlist file "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/gwsynthesis/DSP_DAC_UDA1334.vg" completed
 Processing netlist completed
-Reading constraint file: "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\src\DSP_DAC_UDA1334.cst"
+Reading constraint file: "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/DSP_DAC_UDA1334.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -20,10 +20,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\pnr\DSP_DAC_UDA1334.power.html" completed
-Generate file "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\pnr\DSP_DAC_UDA1334.pin.html" completed
-Generate file "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\pnr\DSP_DAC_UDA1334.rpt.html" completed
-Generate file "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\pnr\DSP_DAC_UDA1334.rpt.txt" completed
-Generate file "C:\Gowin\Gowin_V1.9.11_x64\IDE\bin\Documents\DSP_DAC_UDA1334\impl\pnr\DSP_DAC_UDA1334.tr.html" completed
-Fri May  2 02:37:54 2025
+Generate file "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/pnr/DSP_DAC_UDA1334.power.html" completed
+Generate file "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/pnr/DSP_DAC_UDA1334.pin.html" completed
+Generate file "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/pnr/DSP_DAC_UDA1334.rpt.html" completed
+Generate file "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/pnr/DSP_DAC_UDA1334.rpt.txt" completed
+Generate file "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/impl/pnr/DSP_DAC_UDA1334.tr.html" completed
+Sat May 31 01:37:51 2025
 
