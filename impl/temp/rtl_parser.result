@@ -17,7 +17,7 @@
     "SubInsts" : [
      {
       "InstFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v",
-      "InstLine" : 18,
+      "InstLine" : 43,
       "InstName" : "CLK_27_TO_4_8",
       "ModuleFile" : "/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/gowin_rpll/gowin_rpll.v",
       "ModuleLine" : 10,

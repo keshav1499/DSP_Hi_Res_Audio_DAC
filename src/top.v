@@ -15,10 +15,10 @@ driver dvr(
 .btn1(btn1),
 .data(data),
 .bck(bck),
-.ws(ws)
+.ws(ws),
+.mute(mute)
 );
 
-assign mute = 0;
 
 
 

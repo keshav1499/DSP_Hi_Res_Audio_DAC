@@ -3,7 +3,8 @@ module driver (
     input wire btn1,        // Placeholder (e.g., for play/pause switch)
     output wire bck,        // Bit clock (from PLL @ 4.8 MHz)
     output reg ws = 0,      // Word Select (left/right channel toggle)
-    output reg data = 0     // I2S serial data output
+    output reg data = 0,     // I2S serial data output
+    output mute
 );
 
 // === Parameters ===
@@ -12,6 +13,30 @@ localparam RESFREQ    = 20'd96_000;                // 96 kHz sample rate
 localparam TOTAL_BITS = (RESBIT + 1) * 2;          // Total I2S bit cycles per frame (25 + 25)
 localparam COUNTMAX   = TOTAL_BITS - 1;            // Last index of bit count (0 to 49)
 localparam ROM_ADDR_WIDTH = 8;                     // Address bits (e.g., 256 samples)
+
+//========================================== Button Toggle Logic for Mute ==========================================
+reg btn1_sync_0 = 1, btn1_sync_1 = 1;
+reg btn1_prev = 1;
+reg mute_state = 0;
+
+// Synchronize and edge detect
+always @(posedge clk) begin
+    btn1_sync_0 <= btn1;
+    btn1_sync_1 <= btn1_sync_0;
+    btn1_prev <= btn1_sync_1;
+end
+
+wire btn1_pressed = (btn1_prev == 1) && (btn1_sync_1 == 0); // falling edge
+
+// Toggle mute state on falling edge
+always @(posedge clk) begin
+    if (btn1_pressed)
+        mute_state <= ~mute_state;
+end
+
+assign mute = mute_state;
+//==============================================Mute Logic Ends=======================================================
+
 
 // === Clock Generation (PLL) ===
 // We generate 4.8 MHz BCK from 27 MHz input externally (using Gowin_rPLL)

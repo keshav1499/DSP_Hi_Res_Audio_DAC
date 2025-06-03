@@ -4,15 +4,14 @@ Analyzing Verilog file '/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/
 Analyzing Verilog file '/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/gowin_rpll/gowin_rpll.v'
 Analyzing Verilog file '/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v'
 Compiling module 'top'("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v":1)
-WARN  (EX3073) : Port 'clkout' remains unconnected for this instance("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":21)
+WARN  (EX3073) : Port 'clkout' remains unconnected for this instance("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":46)
 Compiling module 'driver'("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":1)
-Extracting RAM for identifier 'sine_rom'("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":25)
+Extracting RAM for identifier 'sine_rom'("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":50)
 Compiling module 'Gowin_rPLL'("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/gowin_rpll/gowin_rpll.v":10)
-WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":41)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":57)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":66)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/driver.v":82)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input btn1 is unused("/home/tallguydesi/Documents/GitHub/DSP_Hi_Res_Audio_DAC/src/top.v":4)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
