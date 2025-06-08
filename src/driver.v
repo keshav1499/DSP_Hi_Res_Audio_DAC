@@ -69,7 +69,7 @@ end
 // === Word Select Toggle (ws) ===
 // Toggled after the wait bit (at bit_count == 1 for left, at bit_count == 26 for right)
 always @(negedge bck) begin
-    if (bit_count == 1 || bit_count == RESBIT + 2)
+    if (bit_count == 0 || bit_count == RESBIT + 1)
         ws <= ~ws;
 end
 
