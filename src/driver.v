@@ -67,7 +67,7 @@ always @(posedge bck) begin
 end
 
 // === Word Select Toggle (ws) ===
-// Toggled after the wait bit (at bit_count == 1 for left, at bit_count == 26 for right)
+    // Toggled at bit_count == 0 for left, at bit_count == 25 for right
 always @(negedge bck) begin
     if (bit_count == 0 || bit_count == RESBIT + 1)
         ws <= ~ws;
@@ -87,7 +87,7 @@ end
 // Send MSB-first 24-bit samples with 1-bit wait per channel
 always @(negedge bck) begin
     if (bit_count == 0 || bit_count == RESBIT + 1) begin
-        // Wait bit (bit 24) for each channel
+        // Wait bit (bit 24) for each channel, IG this starts with the 0 on data loading, 1 pulse passes and we start oading data
         data <= 0;
     end else if (bit_count < RESBIT + 1) begin
         // Left channel: bits 23 downto 0
