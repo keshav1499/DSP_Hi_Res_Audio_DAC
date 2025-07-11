@@ -41,7 +41,7 @@ assign mute = mute_state;
 // === Clock Generation (PLL) ===
 // We generate 4.8 MHz BCK from 27 MHz input externally (using Gowin_rPLL)
 Gowin_rPLL CLK_27_TO_4_8(
-    .clkoutd(bck), // 4.8 MHz output clock for BCK
+    .clkoutd(bck), // 4.8 MHz output clock for BCK ( 24+1+24+1=50 bits per sample including right and left channel, 50*96KHz = 4.8 MHz required bit clock)
     .clkin(clk)    // 27 MHz input clock
 );
 
