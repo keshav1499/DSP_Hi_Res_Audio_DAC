@@ -5,6 +5,7 @@ This project implements real-time audio streaming over UART to the UDA1334A I2S 
 ## Features
 
 - **I2S Protocol Support**: 24-bit stereo output with proper word select (WS) and bit clock (BCK).
+- WAIT BIT INTRODUCED FOR BETTER AUDIO HANDLING
 - **UART Streaming**: Stream audio directly from PC over UART at 3 Mbps.
 - **Real-Time Playback**: No buffer overflows thanks to UART FIFO management.
 - **Test ROM**: Optionally load a simple beep or test waveform via ROM.
