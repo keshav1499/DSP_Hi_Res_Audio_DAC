@@ -50,6 +50,8 @@ README.md
 **Using Python (uart_sender.py)**:
 ```bash
 python uart_sender.py --port COMx --file audio.wav
+OUTPUT:
+STREAMING AT XXXX BAUD
 ```
 
 ### Audio Format
