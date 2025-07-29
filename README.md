@@ -96,7 +96,7 @@ python3 stream_audio.py music.wav --port /dev/ttyUSB1 --loop
 > 📌 **WAV File Requirements:**  
 > - Format: 16-bit PCM  
 > - Sample Rate: 44100 Hz  
-> - Channels: Mono
+> - Channels: Mono(Can be made into duual channel, you have to find a more stable comm protocol for that)
 
 ---
 
