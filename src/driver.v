@@ -7,7 +7,7 @@ module driver (
     output mute
 );
 
-// === Parameters ===
+// === Parameters ===///
 localparam RESBIT     = 5'd24;                     // 24-bit audio
 localparam RESFREQ    = 20'd96_000;                // 96 kHz sample rate
 localparam TOTAL_BITS = (RESBIT + 1) * 2;          // Total I2S bit cycles per frame (25 + 25)
